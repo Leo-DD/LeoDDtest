@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>音樂推薦</title>
+        <style>
+            body {
+                background-image: url('music.jpg');
+                background-size: cover;
+                margin: 0;
+                font-family: 'Arial', sans-serif;
+                /* padding-bottom: 50px; 增加底部填充 */
+            }
+            .container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 20px;
+                height: 100vh;
+                background-color: rgba(255, 255, 255, 0.8);
+            }
+            .home-button {
+                margin-bottom: 20px;
+            }
+            .home-button img {
+                width: 180px; /* 調整圖像大小 */
+                height: 90px; /* 調整圖像大小 */
+                cursor: pointer;
+            }
+            .title {
+                font-size: 36px;
+                font-weight: bold;
+                margin-bottom: 20px;
+            }
+            .link-button {
+                display: inline-block;
+                padding: 15px 30px;
+                margin: 10px;
+                background-color: #555;
+                color: white;
+                text-decoration: none; /* 去除文本的下滑縣 */
+                text-align: center;
+                border-radius: 8px;
+                font-size: 20px;
+                width: 100%;
+                max-width: 200px;
+            }
+            .link-button:hover { /* 當滑鼠在上面會變顏色 */
+                background-color: #777; 
+                
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="home-button">
+                <a href="https://www.google.com" target="_blank">
+                    <!-- _blank在新視窗或新標籤頁中打開連結 -->
+                    <img src="home.png" alt="Home" title="回首頁">
+                </a>
+            </div>
+            <div class="title">推薦歌單</div>
+                <a href="https://www.youtube.com/watch?v=ovTiSA9T-RU&pp=ygUS6I2J5p2x5rKS5pyJ5rS-5bCN" target="_blank" class="link-button">但</a>
+                <a href="https://www.youtube.com/watch?v=uV2ex9L1j9I&pp=ygUS6I2J5p2x5rKS5pyJ5rS-5bCN" target="_blank" class="link-button">白日夢</a>
+                <a href="https://www.youtube.com/watch?v=g6Oq9-vLfzc&pp=ygUS6I2J5p2x5rKS5pyJ5rS-5bCN" target="_blank" class="link-button">老張</a>
+                <a href="https://www.youtube.com/watch?v=GavvkJ-Svrg&list=RDGavvkJ-Svrg&index=1&pp=8AUB" target="_blank" class="link-button">滔滔</a>
+                <a href="https://www.youtube.com/watch?v=Du2xHII1_Gs&list=RDGavvkJ-Svrg&index=2&pp=8AUB" target="_blank" class="link-button">情歌</a>
+                <a href="https://www.youtube.com/watch?v=uUc_05zlRkQ&list=RDGavvkJ-Svrg&index=3&pp=8AUB" target="_blank" class="link-button">艾瑪</a>
+                <a href="https://www.youtube.com/watch?v=SB3_m1jU-BU&list=OLAK5uy_mmHlT0EvqUrCd0vb6JrF5UFQQS06dbfyg&index=2&pp=8AUB" target="_blank" class="link-button">缸</a>
+                <a href="https://www.youtube.com/watch?v=yq5KovCxq8o&list=OLAK5uy_mmHlT0EvqUrCd0vb6JrF5UFQQS06dbfyg&index=7&pp=8AUB" target="_blank" class="link-button">床</a>
+                <a href="https://www.youtube.com/watch?v=X8BK7Dq7PG4&list=RDGavvkJ-Svrg&index=17&pp=8AUB" target="_blank" class="link-button">我們</a>
+                <a href="https://www.youtube.com/watch?v=HqmpIQ9l-uA&list=RDWltRNBs0vC8&index=18&pp=8AUB" target="_blank" class="link-button">大風吹</a>
+            </div>
+        <!-- <div style="height: 50px;"></div> 添加空白 -->
+    </body>
+</html>
